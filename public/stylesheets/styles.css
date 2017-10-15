@@ -41,7 +41,7 @@ nav ul li a {
 }
 nav ul li a:hover,
 nav ul li a.active {
-  background: #ecf0f1;
+  background: #008CA8;
 }
 section {
   padding: 20px;
@@ -62,7 +62,7 @@ h1 {
   font-size: 2em;
 }
 footer {
-  padding: 20px;
+  padding: 30px;
   background: #3498db;
   font: normal 1em 'Open Sans Condensed', sans-serif;
   color: #ecf0f1;

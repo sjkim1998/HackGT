@@ -10,16 +10,16 @@ div {
 }
 .header {
   padding: 20px 0;
-  background: #008CA8;
+  background: #3498db;
   font: normal 2em / normal 'Nixie One', serif;
-  color: #1D1160;
+  color: #ecf0f1;
   text-align: center;
   font-size: 30px;
 }
 nav {
   margin: 0;
   padding: 0;
-  background: #1D1160;
+  background: #3498db;
   overflow: hidden;
 }
 nav ul {
@@ -35,13 +35,13 @@ nav ul li {
 nav ul li a {
   padding: 5px 20px;
   font: normal 1em / normal 'Open Sans Condensed', sans-serif;
-  color: #008CA8;
+  color: #ecf0f1;
   text-decoration: none;
   text-transform: uppercase;
 }
 nav ul li a:hover,
 nav ul li a.active {
-  background: #008CA8;
+  background: #ecf0f1;
 }
 section {
   padding: 20px;
@@ -63,8 +63,8 @@ h1 {
 }
 footer {
   padding: 20px;
-  background: #1D1160;
+  background: #3498db;
   font: normal 1em 'Open Sans Condensed', sans-serif;
-  color: #008CA8;
+  color: #ecf0f1;
   text-align: center;
 }

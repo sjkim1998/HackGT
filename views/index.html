@@ -46,37 +46,67 @@
 						<a href="#section2">About Our App</a>
 					</li>
 					<li>
-						<a href="#section3">How We Made It</a>
+						<a href="#section3">How We Built It</a>
 					</li>
 					<li>
-						<a href="#section4">Future Steps</a>
+						<a href="#section4">Challenges We Ran Into</a>
+					</li>
+					<li>
+							<a href="#section5">Accomplishments that We're Proud Of</a>
+					</li>
+					<li>
+							<a href="#section6">What We Learned</a>
+					</li>
+					<li>
+							<a href="#section7">Future Steps</a>
 					</li>
 				</ul>
 			</nav>
 			<section id="section1">Introduction
 				<p>
-					Whether you just moved to a new area or are just visiting, it is hard to get familiar with new surroundings. In a highly globalized world, access to travel and long distance relocation has become more widely available, so that people can visit more new places. 
+						Whether you just moved to a new area or are just visiting, it is hard to become familiar with new surroundings. In a highly globalized world, access to travel and long distance relocation has become more widely available. 
 				</n>
-					However, the travel experience can be tainted by unfamiliarity to the surrounding areas. Being lost and stressing out is no way to travel. As lovers of travelling, our group wanted to find a solution for newcomers and visitors to new areas to feeling welcomed and accustomed to the place.				
+						However, the travel experience can be tainted by unfamiliarity of the surrounding areas. Being lost and stressing out is no way to travel. As lovers of travelling, our group wanted to find a solution for newcomers and visitors to new areas to feeling welcomed and accustomed to the place.
+				
 				</p>
 			</section>
 				
 			<section id="section2">About Our App
-				<p>We created an iOS app, called ArrivAR, that allows users to interact with other users, by posting status updates that will pop up on the screen. The post will be anchored in midair, near the location, where the status was posted, so that different users can interact with each other with a greater sense of spatial closeness. 
+				<p>
+						We created an iOS app, called ArrivAR, that allows users to interact with other users, by posting status updates that will pop up on the screen. The post will be anchored in midair, near the location where the status was posted, so that different users can interact with each other with a greater sense of spatial closeness. 
 				</n>
-					ArrivAR also acts as a tour guide for the user, as historical and interesting facts about a certain location will be posted in mid-air similar to the status updates. These facts will help the traveler or the newcomer to get to know the new place.
+						ArrivAR users can view and interact with job postings in their vicinity. Users will be able to see job postings in the air and click on the company's logo to get information about the position, as well as a button that takes them directly to application for the role, powered by Dice. This will especially help those who moved into a new area to find a job.
 				</n>
-					Lastly, ArrivAR acts an advertisement site for nearby deals and job posting site for nearby jobs. Users can find good deals learn about good places to shop and eat nearby. Also, users who are interested in jobs will be able to see job posting in the air and click on the ad to get information about the job. This will especially help those who moved into a new area to find a job.
+						ArrivAR users can also find good deals on restaurants and shops. Additionally, thanks to NCR's messaging API, users can create local bulletins, where locals can post information on upcoming events.
+				</n>
+						ArrivAR also acts as a tour guide for the user, as historical and interesting facts about a certain location will be posted similarly to the status updates. These facts will help the traveler or the newcomer become more familiar with their new 
+						surroundings.
+				</n>	
+						All of these features of ArrivAR are readily available by pointing your device at different areas around you and simply interacting with what you see on your screen.
 				</p>
 			</section>
 				
-			<section id="section3">How We Made It
-				<p>Aditya</p>
+			<section id="section3">How We Built It
+				<p>We built the iOS application using Swift 4 on XCode and utilizing Apple's latest ARKit, which was released in the iOS 11 update. The iOS app communicated with a Node.js/Express backend that provided RESTful services with the help of a Mongo database to store all the information that the user sees in his or her screen. We obtained local job postings by scraping Dice's job board using the Cheerio.js web scraping library. We also provided the ability to publish and subscribe to virtual bulletins by using NCR's Messaging API. </p>
 			</section>
-			
-			<section id="section4">Future Steps
+			<section id="section4">Challenges We Ran Into
+					<p>
+							All three of us were unfamiliar with augmented reality technologies, so learning to use ARKit was certainly a challenge at first. We also ran into obstacles when attempting to precisely place objects in the AR view, as latitude and longitude precision is imperfect in iOS.
+					</p>
+			</section>
+			<section id="section5">Accomplishments that We're Proud Of
+					<p>
+							We were proud to have been able to build an augmented reality application from scratch. In addition, we were pleased with the sheer potential the product has in bringing together locals in various ways. Lastly, we liked the fact that we provided useful services to users in multiple ways, whether it be helping people find jobs or save money.
+					</p>
+			</section>
+			<section id="section6">What We Learned
+					<p>
+							We learned a great deal about object placement in 3D space and it allowed us to utilize a lot of math knowledge, particularly linear algebra. Of course, we learned proper design principles for augmented reality applications. But most importantly, we learned how a technical solution to a technical problem can provide countless opportunities to normal people.						
+					</p>
+			</section>
+			<section id="section7">Future Steps
 				<p>
-					For ArrivAR, we hope to improve the user's experience and interaction with the technology and with other users in social media, tourism, job search, and advertisement. We also hope to make it available in other languages because it would be greatly beneficial to international tourists
+						For ArrivAR, we hope to improve the user's experience and interaction with the technology and with other users in social media, tourism, job search, and advertisement. We also hope to make it available in other languages because it would be greatly beneficial to international tourists.
 				</p>
 			</section>
 				

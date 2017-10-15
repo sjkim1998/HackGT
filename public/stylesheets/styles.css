@@ -9,6 +9,7 @@ header,
 nav,
 footer,
 div {
+
   width: 100%;
 }
 .header {
@@ -18,7 +19,6 @@ div {
   color: #ecf0f1;
   text-align: center;
   font-size: 30px;
-  float: left;
 }
 nav {
   margin: 0;
